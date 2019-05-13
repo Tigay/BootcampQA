@@ -76,6 +76,7 @@ private WebElement telField;
         String res4 = telField.getAttribute("value");
         return res4;
     }
+    //next comment
     public  String getConfirmNotification(){
         String res6 = confirmNotification.get(1).getText();
         return res6;

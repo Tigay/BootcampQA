@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6b755a09-cf82-44eb-9ba4-ece5afc1a3a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wag/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wag/HomePage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -134,8 +135,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="221">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#388#389#0" expanded="true" />
@@ -174,7 +175,6 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wag/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wag/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wag/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wag/BaseTest.java" />
@@ -183,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wag/PromotionPageDuplicat.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wag/HomeworkTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wag/testDate/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wag/HomePage.java" />
       </list>
     </option>
   </component>
@@ -268,7 +269,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557718573787" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557719672916" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -414,7 +415,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23489933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -579,8 +579,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="221">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#388#389#0" expanded="true" />
