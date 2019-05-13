@@ -16,6 +16,7 @@ public class HomePage extends BasePage{
     public void clickWalkFreeButton(){
         walkFreeButton.click();
     }
+    //git some code
 
 
 }
