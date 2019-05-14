@@ -35,7 +35,7 @@ private WebElement telField;
     private List<WebElement> confirmNotification;
 
     @FindBy(css =".sc-bdVaJa.sc-gZMcBi.giglCC")
-    private List<WebElement>errorFieds;
+    private List<WebElement>errorFields;
 
 
     public void inputEmailField(String email) {
@@ -43,19 +43,24 @@ private WebElement telField;
         emailField.sendKeys(email);
     }
     public void inputPasswordField(String password){
+        wait.until(ExpectedConditions.elementToBeClickable(passwordField));
             passwordField.sendKeys(password);
  }
 
     public void inputFirstName(String firstName){
+        wait.until(ExpectedConditions.elementToBeClickable(firstNameField));
         firstNameField.sendKeys(firstName);
  }
  public void inputLastName(String lastName){
+        wait.until(ExpectedConditions.elementToBeClickable(lastNameField));
        lastNameField.sendKeys(lastName);
  }
  public void inputTel(String number){
+        wait.until(ExpectedConditions.elementToBeClickable(telField));
         telField.sendKeys(number);
  }
  public  String clickButton(){
+        wait.until(ExpectedConditions.elementToBeClickable(nextButton));
         nextButton.click();
        String res =  nextButton.getText();
      return res;
@@ -87,10 +92,26 @@ private WebElement telField;
         return res6;
     }
     public String getErrorForEmailField(){
-        wait.until()
-              String error =  errorField.get(0).getText();
+        wait.until(ExpectedConditions.elementToBeClickable(emailField));
+              String error =  errorFields.get(0).getText();
         return error;
     }
+    public String getErrorForFirstName(){
+        wait.until(ExpectedConditions.elementToBeClickable(firstNameField));
+        String err2 = errorFields.get(1).getText();
+        return err2;
+    }
+    public String getErrorForLastName(){
+        wait.until(ExpectedConditions.elementToBeClickable(lastNameField));
+        String err3 = errorFields.get(2).getText();
+        return err3;
+    }
+    public String getErrorForPhoneNumber(){
+        wait.until(ExpectedConditions.elementToBeClickable(telField));
+        String err4 = errorFields.get(3).getText();
+        return err4;
+    }
+
 
 
 }
