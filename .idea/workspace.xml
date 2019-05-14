@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6b755a09-cf82-44eb-9ba4-ece5afc1a3a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wag/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wag/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wag/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wag/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wag/PromotionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wag/PromotionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wag/PromotionPageDuplicat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wag/PromotionPageDuplicat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wag/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wag/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wag/TestPromotionAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wag/TestPromotionAction.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/TestPromotionAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="320">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/testDate/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
+            <state relative-caret-position="189">
               <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding>
                 <element signature="e#391#392#0" expanded="true" />
@@ -62,15 +67,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/PromotionPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+            <state relative-caret-position="179">
+              <caret line="91" column="21" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
                 <element signature="e#526#527#0" expanded="true" />
                 <element signature="e#570#571#0" expanded="true" />
                 <element signature="e#722#723#0" expanded="true" />
@@ -85,34 +88,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/PromotionPageDuplicat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#1027#1028#0" expanded="true" />
-                <element signature="e#1071#1072#0" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#847#848#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#988#989#0" expanded="true" />
-                <element signature="e#1033#1034#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="320">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,36 +102,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="425">
+              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/HomeworkTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="357">
+              <caret line="19" column="76" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/PromotionPageDuplicat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="25" column="77" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#988#989#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,14 +159,14 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wag/FirstTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wag/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/wag/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wag/PromotionPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/wag/TestPromotionAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wag/PromotionPageDuplicat.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wag/HomeworkTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wag/testDate/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wag/TestPromotionAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wag/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wag/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wag/PromotionPageDuplicat.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wag/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wag/PromotionPage.java" />
       </list>
     </option>
   </component>
@@ -269,7 +252,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557719672916" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557808338025" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -287,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HomeworkTest">
+  <component name="RunManager" selected="JUnit.TestPromotionAction">
     <configuration name="HomeworkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="firstProject" />
       <extension name="coverage">
@@ -352,10 +335,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPromotionAction" />
+        <item itemvalue="JUnit.TestPromotionAction.testFirst" />
         <item itemvalue="JUnit.HomeworkTest" />
         <item itemvalue="JUnit.HomeworkTest.testFirst" />
-        <item itemvalue="JUnit.TestPromotionAction.testFirst" />
-        <item itemvalue="JUnit.TestPromotionAction" />
       </list>
     </recent_temporary>
   </component>
@@ -373,15 +356,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestPromotionAction_testFirst - 2019.05.09 at 20h 39m 22s.xml">
-      <configuration name="TestPromotionAction.testFirst" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestPromotionAction_testFirst - 2019.05.09 at 20h 41m 37s.xml">
-      <configuration name="TestPromotionAction.testFirst" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestPromotionAction_testFirst - 2019.05.09 at 20h 43m 27s.xml">
-      <configuration name="TestPromotionAction.testFirst" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestPromotionAction_testFirst - 2019.05.09 at 20h 55m 44s.xml">
       <configuration name="TestPromotionAction.testFirst" configurationId="JUnit" />
     </history-entry>
@@ -403,6 +377,15 @@
     <history-entry file="HomeworkTest - 2019.05.12 at 19h 16m 01s.xml">
       <configuration name="HomeworkTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestPromotionAction - 2019.05.13 at 19h 58m 19s.xml">
+      <configuration name="TestPromotionAction" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPromotionAction_testFirst - 2019.05.13 at 20h 13m 27s.xml">
+      <configuration name="TestPromotionAction.testFirst" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPromotionAction - 2019.05.13 at 21h 00m 31s.xml">
+      <configuration name="TestPromotionAction" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,6 +398,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23489933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -425,12 +409,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329429" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329429" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.329429" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329429" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329429" />
@@ -443,6 +427,34 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23489933" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329429" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329429" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329429" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wag.java">
@@ -476,20 +488,10 @@
     <entry file="file://$PROJECT_DIR$/firstProject.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/HomeworkTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/TestPromotionAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="714">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -498,7 +500,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/testDate/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
+        <state relative-caret-position="189">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding>
             <element signature="e#391#392#0" expanded="true" />
@@ -517,38 +519,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/PromotionPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/HomeworkTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="425">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -557,34 +529,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/PromotionPageDuplicat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="294">
+          <caret line="25" column="77" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
             <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
             <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
             <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="357">
+          <caret line="19" column="76" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/TestPromotionAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/PromotionPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="91" column="21" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
           </folding>
         </state>
       </provider>

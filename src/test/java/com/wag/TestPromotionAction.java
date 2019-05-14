@@ -7,15 +7,16 @@ import org.junit.Test;
 
 public class TestPromotionAction extends BaseTest {
     private HomePage homePage;
+    private PromotionPage promotionPage;
 
    @Test
     public void testFirst() throws InterruptedException {
 
         homePage= new HomePage(driver);
 
-        homePage.clickWalkFreeButton();
+        promotionPage = homePage.clickWalkFreeButton();
 
-       PromotionPage promotionPage = new PromotionPage(driver);
+       //PromotionPage promotionPage = new PromotionPage(driver);
         User user =new User();
        promotionPage.inputEmailField(user.getEmail());
        promotionPage.inputPasswordField(user.getPassword());

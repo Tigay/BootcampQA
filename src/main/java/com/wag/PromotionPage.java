@@ -4,6 +4,7 @@ import com.sun.org.apache.xml.internal.dtm.ref.sax2dtm.SAX2RTFDTM;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
@@ -33,8 +34,12 @@ private WebElement telField;
     @FindBy(css = "p.sc-gzVnrw.bMAZbm")
     private List<WebElement> confirmNotification;
 
+    @FindBy(css =".sc-bdVaJa.sc-gZMcBi.giglCC")
+    private List<WebElement>errorFieds;
+
 
     public void inputEmailField(String email) {
+        wait.until(ExpectedConditions.elementToBeClickable(emailField));
         emailField.sendKeys(email);
     }
     public void inputPasswordField(String password){
@@ -80,6 +85,11 @@ private WebElement telField;
     public  String getConfirmNotification(){
         String res6 = confirmNotification.get(1).getText();
         return res6;
+    }
+    public String getErrorForEmailField(){
+        wait.until()
+              String error =  errorField.get(0).getText();
+        return error;
     }
 
 
