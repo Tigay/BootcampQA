@@ -88,28 +88,41 @@ private WebElement telField;
     }
     //next comment
     public  String getConfirmNotification(){
+        wait.until(ExpectedConditions.visibilityOf(errorFields.get(0)));
         String res6 = confirmNotification.get(1).getText();
         return res6;
     }
     public String getErrorForEmailField(){
-        wait.until(ExpectedConditions.elementToBeClickable(emailField));
+        wait.until(ExpectedConditions.visibilityOf(errorFields.get(0)));
               String error =  errorFields.get(0).getText();
         return error;
     }
     public String getErrorForFirstName(){
-        wait.until(ExpectedConditions.elementToBeClickable(firstNameField));
+        wait.until(ExpectedConditions.visibilityOf(errorFields.get(1)));
         String err2 = errorFields.get(1).getText();
         return err2;
     }
     public String getErrorForLastName(){
-        wait.until(ExpectedConditions.elementToBeClickable(lastNameField));
+        wait.until(ExpectedConditions.visibilityOf(errorFields.get(2)));
         String err3 = errorFields.get(2).getText();
         return err3;
     }
     public String getErrorForPhoneNumber(){
-        wait.until(ExpectedConditions.elementToBeClickable(telField));
+        wait.until(ExpectedConditions.visibilityOf(errorFields.get(3)));
         String err4 = errorFields.get(3).getText();
         return err4;
+    }
+    public void clickEmailField(){
+        emailField.click();
+    }
+    public void clickFirstName(){
+        firstNameField.click();
+    }
+    public void clickLastName(){
+        lastNameField.click();
+    }
+    public void clickTel(){
+        telField.click();
     }
 
 

@@ -16,9 +16,7 @@ public class HomePage extends BasePage{
     private WebElement walkFreeButton;
 
     public PromotionPage clickWalkFreeButton(){
-
         wait.until(ExpectedConditions.elementToBeClickable(walkFreeButton));
-
         walkFreeButton.click();
         return new PromotionPage(driver);
     }

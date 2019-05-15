@@ -10,7 +10,7 @@ public class TestPromotionAction extends BaseTest {
     private PromotionPage promotionPage;
 
    @Test
-    public void testFirst() throws InterruptedException {
+    public void testFirst(){
 
         homePage= new HomePage(driver);
 
