@@ -67,13 +67,12 @@ public class BecomeWalkerPage extends BasePage{
     public  void inputAddressField(String address){
         wait.until(ExpectedConditions.elementToBeClickable(addressField));
         addressField.sendKeys(address);
-
-        public void confirmAddress(){
-            wait.until(ExpectedConditions.visibilityOfAllElements(listAddress));
-            int size = listAddress.size();
-            System.out.println(size);
-            listAddress.get(1);
-        }
+    }
+    public void confirmAddress(){
+        wait.until(ExpectedConditions.visibilityOfAllElements(listAddress));
+        int size = listAddress.size();
+        System.out.println(size);
+        listAddress.get(1);
     }
     public void inputAptField(String apartment){
         wait.until(ExpectedConditions.elementToBeClickable(apartmentField));
